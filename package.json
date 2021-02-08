@@ -1,0 +1,27 @@
+{
+  "name": "Simple-HTTP-Assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotallySheen/Simple-HTTP-Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TotallySheen/Simple-HTTP-Assignment/issues"
+  },
+  "homepage": "https://github.com/TotallySheen/Simple-HTTP-Assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
